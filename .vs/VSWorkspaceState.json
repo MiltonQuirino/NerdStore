@@ -1,8 +1,11 @@
 {
   "ExpandedNodes": [
     "",
-    "\\src"
+    "\\src",
+    "\\src\\services",
+    "\\src\\services\\NSE.Identidade.API",
+    "\\src\\services\\NSE.Identidade.API\\Controllers"
   ],
-  "SelectedNode": "\\src\\services",
+  "SelectedNode": "\\src\\services\\NSE.Identidade.API\\Controllers\\WeatherForecastController.cs",
   "PreviewInSolutionExplorer": false
 }
