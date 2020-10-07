@@ -33,6 +33,8 @@ namespace NSE.Identidade.API.Controllers
         [HttpPost("nova-conta")]
         public async Task<ActionResult> Register(UsuarioRegistro usuarioRegistro)
         {
+
+            return new StatusCodeResult(401);
             if (!ModelState.IsValid)
                 return CustomResponse(ModelState);
 
@@ -132,6 +134,7 @@ namespace NSE.Identidade.API.Controllers
 
             return encodedToken;
         }
+
         private UsuarioRespostaLogin ObterRespostaToken(string encodedToken, IdentityUser user, ICollection<Claim> claims)
         {
             var response = new UsuarioRespostaLogin

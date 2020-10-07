@@ -74,6 +74,7 @@ namespace NSE.WebApp.MVC.Extensions
         }
     }
 
+
     public static class ClaimsPrincipalExtensions
     {
         public static string GetUserId(this ClaimsPrincipal principal)

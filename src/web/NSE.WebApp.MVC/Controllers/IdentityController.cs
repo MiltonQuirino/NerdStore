@@ -11,7 +11,7 @@ using System.Threading.Tasks;
 
 namespace NSE.WebApp.MVC.Controllers
 {
-    public class IdentityController : Controller
+    public class IdentityController : MainController
     {
         private readonly IAutenticacaoService _authService;
         public IdentityController(IAutenticacaoService authService)
@@ -19,16 +19,14 @@ namespace NSE.WebApp.MVC.Controllers
             _authService = authService;
         }
 
-        [HttpGet]
-        [Route("nova-conta")]
+        [HttpGet("nova-conta")]
         public IActionResult Registro()
         {
             return View();
         }
 
-        [HttpPost]
-        [Route("nova-conta")]
-        public async Task<ActionResult> Registro(UsuarioRegistro usuarioRegistro)
+        [HttpPost("nova-conta")]
+        public async Task<IActionResult> Registro(UsuarioRegistro usuarioRegistro)
         {
             if (!ModelState.IsValid)
                 return View(usuarioRegistro);
@@ -36,7 +34,7 @@ namespace NSE.WebApp.MVC.Controllers
             // Se comunicar com a API - Registro
             var resposta = await _authService.Registro(usuarioRegistro);
 
-            if (false)
+            if (ResponsePossuiErros(resposta.ResponseResult))
                 return View(usuarioRegistro);
 
             // Realizar login na API
@@ -44,15 +42,13 @@ namespace NSE.WebApp.MVC.Controllers
             
         }
 
-        [HttpGet]
-        [Route("login")]
+        [HttpGet("login")]
         public IActionResult Login()
         {
             return View();
         }
 
-        [HttpPost]
-        [Route("login")]
+        [HttpPost("login")]
         public async Task<IActionResult> Login(UsuarioLogin usuarioLogin)
         {
             if (!ModelState.IsValid)
@@ -61,8 +57,8 @@ namespace NSE.WebApp.MVC.Controllers
             //TODO: Se comunicar com a API - Login
             var resposta = await _authService.Login(usuarioLogin);
 
-            //if (false)
-            //    return View(usuarioLogin);
+            if (ResponsePossuiErros(resposta.ResponseResult))
+                return View(usuarioLogin);
 
             // Realizar login na API
             await RealizarLogin(resposta);
@@ -70,11 +66,11 @@ namespace NSE.WebApp.MVC.Controllers
             return RedirectToAction("Index", "Home");
         }
 
-        [HttpGet]
-        [Route("sair")]
+        [HttpGet("sair")]
         public async Task<IActionResult> Logout()
         {
             // TODO: Programar limpa do cookie da sessão para derrubar usuário.
+            await HttpContext.SignOutAsync(CookieAuthenticationDefaults.AuthenticationScheme);
             return RedirectToAction("Index", "Home");
         }
 
