@@ -7,6 +7,7 @@ using Microsoft.Extensions.Hosting;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using NSE.WebApi.Core.Identidade;
 
 namespace NSE.Identidade.API.Configuration
 {
@@ -15,6 +16,13 @@ namespace NSE.Identidade.API.Configuration
         public static IServiceCollection AddApiConfiguration(this IServiceCollection services)
         {
             services.AddControllers();
+
+            services.AddCors(options => {
+                options.AddPolicy("Total", builder =>
+                builder.AllowAnyOrigin()
+                    .AllowAnyMethod()
+                    .AllowAnyHeader());
+            });
 
             return services;
         }
@@ -32,7 +40,7 @@ namespace NSE.Identidade.API.Configuration
 
             app.UseAuthorization();
 
-            app.UserIdentityConfiguration();
+            app.UseAuthConfiguration();
 
             app.UseEndpoints(endpoints =>
             {

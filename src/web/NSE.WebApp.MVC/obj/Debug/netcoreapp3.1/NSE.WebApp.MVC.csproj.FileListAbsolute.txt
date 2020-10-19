@@ -9,7 +9,6 @@ C:\Users\user\source\repos\NerdStoreEnterprise\src\web\NSE.WebApp.MVC\bin\Debug\
 C:\Users\user\source\repos\NerdStoreEnterprise\src\web\NSE.WebApp.MVC\bin\Debug\netcoreapp3.1\NSE.WebApp.MVC.pdb
 C:\Users\user\source\repos\NerdStoreEnterprise\src\web\NSE.WebApp.MVC\bin\Debug\netcoreapp3.1\NSE.WebApp.MVC.Views.dll
 C:\Users\user\source\repos\NerdStoreEnterprise\src\web\NSE.WebApp.MVC\bin\Debug\netcoreapp3.1\NSE.WebApp.MVC.Views.pdb
-C:\Users\user\source\repos\NerdStoreEnterprise\src\web\NSE.WebApp.MVC\obj\Debug\netcoreapp3.1\NSE.WebApp.MVC.csprojAssemblyReference.cache
 C:\Users\user\source\repos\NerdStoreEnterprise\src\web\NSE.WebApp.MVC\obj\Debug\netcoreapp3.1\NSE.WebApp.MVC.RazorAssemblyInfo.cache
 C:\Users\user\source\repos\NerdStoreEnterprise\src\web\NSE.WebApp.MVC\obj\Debug\netcoreapp3.1\NSE.WebApp.MVC.RazorAssemblyInfo.cs
 C:\Users\user\source\repos\NerdStoreEnterprise\src\web\NSE.WebApp.MVC\obj\Debug\netcoreapp3.1\NSE.WebApp.MVC.AssemblyInfoInputs.cache
@@ -393,6 +392,12 @@ C:\Users\user\source\repos\NerdStoreEnterprise\src\web\NSE.WebApp.MVC\bin\Debug\
 C:\Users\user\source\repos\NerdStoreEnterprise\src\web\NSE.WebApp.MVC\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation.dll
 C:\Users\user\source\repos\NerdStoreEnterprise\src\web\NSE.WebApp.MVC\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyModel.dll
 C:\Users\user\source\repos\NerdStoreEnterprise\src\web\NSE.WebApp.MVC\bin\Debug\netcoreapp3.1\System.Text.Json.dll
+C:\Users\user\source\repos\NerdStoreEnterprise\src\web\NSE.WebApp.MVC\obj\Debug\netcoreapp3.1\NSE.WebApp.MVC.csprojAssemblyReference.cache
+C:\Users\user\source\repos\NerdStoreEnterprise\src\web\NSE.WebApp.MVC\obj\Debug\netcoreapp3.1\Razor\Views\Catalogo\Index.cshtml.g.cs
+C:\Users\user\source\repos\NerdStoreEnterprise\src\web\NSE.WebApp.MVC\obj\Debug\netcoreapp3.1\Razor\Views\Catalogo\ProdutoDetalhe.cshtml.g.cs
+C:\Users\user\source\repos\NerdStoreEnterprise\src\web\NSE.WebApp.MVC\bin\Debug\netcoreapp3.1\libman.json
+C:\Users\user\source\repos\NerdStoreEnterprise\src\web\NSE.WebApp.MVC\bin\Debug\netcoreapp3.1\Refit.dll
+C:\Users\user\source\repos\NerdStoreEnterprise\src\web\NSE.WebApp.MVC\obj\Debug\netcoreapp3.1\RefitStubs.g.cs
 C:\Users\user\source\repos\NerdStoreEnterprise\src\web\NSE.WebApp.MVC\obj\Debug\netcoreapp3.1\NSE.WebApp.MVC.csproj.CoreCompileInputs.cache
 C:\Users\user\source\repos\NerdStoreEnterprise\src\web\NSE.WebApp.MVC\obj\Debug\netcoreapp3.1\NSE.WebApp.MVC.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\user\source\repos\NerdStoreEnterprise\src\web\NSE.WebApp.MVC\obj\Debug\netcoreapp3.1\NSE.WebApp.MVC.MvcApplicationPartsAssemblyInfo.cache

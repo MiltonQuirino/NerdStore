@@ -20,12 +20,12 @@ namespace NSE.Catalogo.API.Data
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             // Caso algum campo de entidade não seja mapeado configuraremos para ter valor máximo de varchar(100)
-            foreach (var property in modelBuilder.Model.GetEntityTypes().SelectMany(e => e.GetProperties().Where(p => p.ClrType == typeof(string))))
-            {
-                property.SetColumnType("varchar(100)");
-            }
+            //foreach (var property in modelBuilder.Model.GetEntityTypes().SelectMany(e => e.GetProperties().Where(p => p.ClrType == typeof(string))))
+            //{
+            //    property.SetColumnType("varchar(100)");
+            //}
 
-            modelBuilder.ApplyConfigurationsFromAssembly(typeof(CatalogoDbContext).Assembly);
+            //modelBuilder.ApplyConfigurationsFromAssembly(typeof(CatalogoDbContext).Assembly);
         }
 
         public async Task<bool> Commit()

@@ -6,4 +6,3 @@ C:\Users\user\source\repos\NerdStoreEnterprise\src\building blocks\NSE.Core\obj\
 C:\Users\user\source\repos\NerdStoreEnterprise\src\building blocks\NSE.Core\obj\Debug\netcoreapp3.1\NSE.Core.AssemblyInfo.cs
 C:\Users\user\source\repos\NerdStoreEnterprise\src\building blocks\NSE.Core\obj\Debug\netcoreapp3.1\NSE.Core.dll
 C:\Users\user\source\repos\NerdStoreEnterprise\src\building blocks\NSE.Core\obj\Debug\netcoreapp3.1\NSE.Core.pdb
-C:\Users\user\source\repos\NerdStoreEnterprise\src\building blocks\NSE.Core\obj\Debug\netcoreapp3.1\NSE.Core.csprojAssemblyReference.cache

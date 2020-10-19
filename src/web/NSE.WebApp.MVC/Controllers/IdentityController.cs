@@ -2,7 +2,7 @@
 using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Mvc;
 using NSE.WebApp.MVC.Models;
-using NSE.WebApp.MVC.Service;
+using NSE.WebApp.MVC.Services;
 using System;
 using System.Collections.Generic;
 using System.IdentityModel.Tokens.Jwt;
@@ -38,7 +38,7 @@ namespace NSE.WebApp.MVC.Controllers
                 return View(usuarioRegistro);
 
             // Realizar login na API
-            return RedirectToAction("Index", "Home");
+            return RedirectToAction("Index", "Catalogo");
             
         }
 
@@ -49,8 +49,10 @@ namespace NSE.WebApp.MVC.Controllers
         }
 
         [HttpPost("login")]
-        public async Task<IActionResult> Login(UsuarioLogin usuarioLogin)
+        public async Task<IActionResult> Login(UsuarioLogin usuarioLogin, string returnUrl = null)
         {
+            ViewData["ReturnUrl"] = returnUrl;
+
             if (!ModelState.IsValid)
                 return View(usuarioLogin);
 
@@ -63,7 +65,10 @@ namespace NSE.WebApp.MVC.Controllers
             // Realizar login na API
             await RealizarLogin(resposta);
 
-            return RedirectToAction("Index", "Home");
+            if (string.IsNullOrEmpty(returnUrl)) 
+                return RedirectToAction("Index", "Catalogo");
+
+            return LocalRedirect(returnUrl);
         }
 
         [HttpGet("sair")]
@@ -71,7 +76,7 @@ namespace NSE.WebApp.MVC.Controllers
         {
             // TODO: Programar limpa do cookie da sessão para derrubar usuário.
             await HttpContext.SignOutAsync(CookieAuthenticationDefaults.AuthenticationScheme);
-            return RedirectToAction("Index", "Home");
+            return RedirectToAction("Index", "Catalogo");
         }
 
         private async Task RealizarLogin(UsuarioRespostaLogin resposta)

@@ -8,9 +8,9 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Options;
-using NSE.Identidade.API.Extensions;
 using NSE.Identidade.API.Models;
 using Microsoft.IdentityModel.Tokens;
+using NSE.WebApi.Core.Identidade;
 
 namespace NSE.Identidade.API.Controllers
 {
@@ -33,8 +33,6 @@ namespace NSE.Identidade.API.Controllers
         [HttpPost("nova-conta")]
         public async Task<ActionResult> Register(UsuarioRegistro usuarioRegistro)
         {
-
-            return new StatusCodeResult(401);
             if (!ModelState.IsValid)
                 return CustomResponse(ModelState);
 

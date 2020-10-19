@@ -146,3 +146,7 @@ C:\Users\user\source\repos\NerdStoreEnterprise\src\services\NSE.Identidade.API\b
 C:\Users\user\source\repos\NerdStoreEnterprise\src\services\NSE.Identidade.API\obj\Debug\netcoreapp3.1\NSE.Identidade.API.csproj.CoreCompileInputs.cache
 C:\Users\user\source\repos\NerdStoreEnterprise\src\services\NSE.Identidade.API\obj\Debug\netcoreapp3.1\NSE.Identidade.API.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\user\source\repos\NerdStoreEnterprise\src\services\NSE.Identidade.API\obj\Debug\netcoreapp3.1\NSE.Identidade.API.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\user\source\repos\NerdStoreEnterprise\src\services\NSE.Identidade.API\bin\Debug\netcoreapp3.1\NSE.Core.dll
+C:\Users\user\source\repos\NerdStoreEnterprise\src\services\NSE.Identidade.API\bin\Debug\netcoreapp3.1\NSE.WebApi.Core.dll
+C:\Users\user\source\repos\NerdStoreEnterprise\src\services\NSE.Identidade.API\bin\Debug\netcoreapp3.1\NSE.Core.pdb
+C:\Users\user\source\repos\NerdStoreEnterprise\src\services\NSE.Identidade.API\bin\Debug\netcoreapp3.1\NSE.WebApi.Core.pdb

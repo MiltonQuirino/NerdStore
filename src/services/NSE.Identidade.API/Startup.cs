@@ -19,6 +19,7 @@ using Microsoft.OpenApi.Models;
 using NSE.Identidade.API.Configuration;
 using NSE.Identidade.API.Data;
 using NSE.Identidade.API.Extensions;
+using NSE.WebApi.Core.Identidade;
 
 namespace NSE.Identidade.API
 {

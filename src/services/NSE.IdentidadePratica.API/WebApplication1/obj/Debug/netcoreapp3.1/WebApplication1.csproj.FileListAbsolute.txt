@@ -1,7 +1,6 @@
 C:\Users\user\source\repos\NerdStoreEnterprise\src\services\NSE.IdentidadePratica.API\WebApplication1\bin\Debug\netcoreapp3.1\appsettings.Development.json
 C:\Users\user\source\repos\NerdStoreEnterprise\src\services\NSE.IdentidadePratica.API\WebApplication1\bin\Debug\netcoreapp3.1\appsettings.json
 C:\Users\user\source\repos\NerdStoreEnterprise\src\services\NSE.IdentidadePratica.API\WebApplication1\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
-C:\Users\user\source\repos\NerdStoreEnterprise\src\services\NSE.IdentidadePratica.API\WebApplication1\obj\Debug\netcoreapp3.1\WebApplication1.csprojAssemblyReference.cache
 C:\Users\user\source\repos\NerdStoreEnterprise\src\services\NSE.IdentidadePratica.API\WebApplication1\obj\Debug\netcoreapp3.1\WebApplication1.AssemblyInfoInputs.cache
 C:\Users\user\source\repos\NerdStoreEnterprise\src\services\NSE.IdentidadePratica.API\WebApplication1\obj\Debug\netcoreapp3.1\WebApplication1.AssemblyInfo.cs
 C:\Users\user\source\repos\NerdStoreEnterprise\src\services\NSE.IdentidadePratica.API\WebApplication1\obj\Debug\netcoreapp3.1\WebApplication1.RazorTargetAssemblyInfo.cache
@@ -128,3 +127,4 @@ C:\Users\user\source\repos\NerdStoreEnterprise\src\services\NSE.IdentidadePratic
 C:\Users\user\source\repos\NerdStoreEnterprise\src\services\NSE.IdentidadePratica.API\WebApplication1\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
 C:\Users\user\source\repos\NerdStoreEnterprise\src\services\NSE.IdentidadePratica.API\WebApplication1\obj\Debug\netcoreapp3.1\WebApplication1.csproj.CoreCompileInputs.cache
 C:\Users\user\source\repos\NerdStoreEnterprise\src\services\NSE.IdentidadePratica.API\WebApplication1\obj\Debug\netcoreapp3.1\WebApplication1.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\user\source\repos\NerdStoreEnterprise\src\services\NSE.IdentidadePratica.API\WebApplication1\obj\Debug\netcoreapp3.1\WebApplication1.csprojAssemblyReference.cache

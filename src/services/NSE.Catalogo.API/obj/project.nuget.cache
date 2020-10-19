@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "UTyugkeMwW4SXbhQHqlAl74iQofVE+hCIK2CMtEFKRT1A6SCWCY13Ke6tw8QB96WsnGzMpe5zjtZxYWbZisD5g==",
+  "dgSpecHash": "1+QhDp9LkQTZ6tkQsZ6FUnxv443mQnCHE/lN4TQvqn4HY1ZumLtit08ubafIqsKXPIBBvbkqhot/YF7MId69vw==",
   "success": true,
   "projectFilePath": "C:\\Users\\user\\source\\repos\\NerdStoreEnterprise\\src\\services\\NSE.Catalogo.API\\NSE.Catalogo.API.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\3.1.8\\microsoft.aspnetcore.authentication.jwtbearer.3.1.8.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.razor\\2.2.0\\microsoft.aspnetcore.razor.2.2.0.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.razor.language\\3.1.0\\microsoft.aspnetcore.razor.language.3.1.0.nupkg.sha512",

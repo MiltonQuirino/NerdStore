@@ -17,4 +17,3 @@ C:\Users\user\source\repos\NerdStoreEnterprise\src\services\NSE.Cliente.API\obj\
 C:\Users\user\source\repos\NerdStoreEnterprise\src\services\NSE.Cliente.API\obj\Debug\netcoreapp3.1\NSE.Cliente.API.dll
 C:\Users\user\source\repos\NerdStoreEnterprise\src\services\NSE.Cliente.API\obj\Debug\netcoreapp3.1\NSE.Cliente.API.pdb
 C:\Users\user\source\repos\NerdStoreEnterprise\src\services\NSE.Cliente.API\obj\Debug\netcoreapp3.1\NSE.Cliente.API.genruntimeconfig.cache
-C:\Users\user\source\repos\NerdStoreEnterprise\src\services\NSE.Cliente.API\obj\Debug\netcoreapp3.1\NSE.Cliente.API.csprojAssemblyReference.cache
